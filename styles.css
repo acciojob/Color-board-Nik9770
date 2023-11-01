@@ -1,1 +1,18 @@
-/*  your css code here. If applicable */
+.container{
+	width:1500px;
+	height:750px;
+	background-color:black;
+	display:grid;
+	padding:10px;
+	grid-template-columns:repeat(40,1fr);
+	grid-template-rows:repeat(20,1fr);
+	gap:5px;
+}
+
+.box{
+	background-color:grey;
+	transition: background-color 1s;
+}
+.box:hover{
+	background-color:red;	
+}
